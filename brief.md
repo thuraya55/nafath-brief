@@ -13,11 +13,14 @@ Resource: NIST - Adversarial Machine Learning - https://www.nist.gov/itl/ai-risk
 The OWASP Mobile Application Security Verification Standard (MASVS) provides security requirements for mobile applications. It covers areas such as secure storage, cryptography, authentication, network communication, and platform interaction. Developers can use MASVS to guide security testing and identify weaknesses before release. Following a standard helps structure testing, but does not guarantee that an application is completely secure.
 Resource: OWASP - MASVS - https://mas.owasp.org/MASVS/
 ## Networking
-
+BGP hijacking occurs when an autonomous system announces IP prefixes it is not authorized to originate, potentially redirecting or disrupting internet traffic. Resource Public Key Infrastructure (RPKI) helps operators validate route-origin authorization records through Route Origin Validation (ROV). However, RPKI does not prevent every routing attack: it mainly checks whether the origin AS is authorized for a prefix, not the entire AS path. Operators should combine RPKI with monitoring and sound routing policies.
+Resource: RIPE NCC - RPKI - https://www.ripe.net/manage-ips-and-asns/resource-management/rpki/
 ## Cybersecurity
-
+Log4Shell is a critical remote code execution vulnerability in Apache Log4j 2, tracked as CVE-2021-44228. An attacker may exploit vulnerable applications by sending specially crafted input that triggers unsafe lookup behavior. Organizations should identify affected Log4j versions, upgrade to a fixed version recommended by Apache, and check for signs of exploitation. Disabling vulnerable functionality alone may not be a reliable substitute for applying the appropriate security updates.
+Resource: Apache Logging Services - Log4j Security Vulnerabilities - https://logging.apache.org/log4j/2.x/security.html
 ## Data
-
+A Software Bill of Materials (SBOM) is a formal inventory of software components and dependencies. It helps organizations understand what is included in an application and respond faster when a component has a known vulnerability. An SBOM should include the supplier, component name, version, unique identifiers where available, dependency relationships, and information about the SBOM author and creation time. It should be maintained as software changes and kept accurate.
+Resource: CISA - Software Bill of Materials (SBOM) - https://www.cisa.gov/sbom
 ## Misconception in My Track
 
 ## Open Question 
